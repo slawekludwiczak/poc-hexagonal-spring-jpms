@@ -5,6 +5,8 @@ There is clean separation between domain, application and infrastracture.
 
 The benefit is that i.e. web-adapter cannot access persistence-adapter or domain directly. It has to use application layer.
 
+![hexagon-poc.png](hexagon-poc.png)
+
 **Notes:**
 
 Required Maven compiler plugin >3.8
